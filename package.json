@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "LTSAE-DC",
+  "description": "Website to help identify developmental disabilities early for children ages 0-5",
   "version": "1.1.3",
-  "author": "Austin Green",
+  "author": "Jason Dorn",
   "dependencies": {
     "bulma": "^0.9.0",
     "gatsby": "^2.20.35",
