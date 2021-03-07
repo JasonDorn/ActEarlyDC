@@ -2,9 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
-import newLogo from '../img/newLogo.svg'
 
-const Navbar = class extends React.Component {
+const OldNavbar = class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -36,14 +35,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-primary"
+        className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={newLogo} alt="Kaldi" style={{ height: '20px' }} />
+              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -62,29 +61,32 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
-                Milestones
+                About
               </Link>
               <Link className="navbar-item" to="/products">
-                Evaluations
+                Products
               </Link>
               <Link className="navbar-item" to="/blog">
-                Screening
+                Blog
               </Link>
               <Link className="navbar-item" to="/contact">
-                Treatment and Services
+                Contact
               </Link>
               <Link className="navbar-item" to="/contact/examples">
-                Resources
+                Form Examples
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                About Us
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Parents
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                FAQs
-              </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+              <a
+                className="navbar-item"
+                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={github} alt="Github" />
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -93,4 +95,4 @@ const Navbar = class extends React.Component {
   }
 }
 
-export default Navbar
+export default OldNavbar
