@@ -17,13 +17,11 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <section className="section">
-      <div className="container is-fluid" style={{ maxWidth: '500px' }}>
-        <figure className="image is-3by-1">
-          <img src={dcLogo} alt="Act Early DC Logo" />
-        </figure>
-      </div>
-    </section>
+    <div className="hero container">
+      <figure className="image is-3by-1">
+        <img src={dcLogo} alt="Act Early DC Logo" />
+      </figure>
+    </div>
     <div
       className="full-width-image margin-top-0"
       style={{

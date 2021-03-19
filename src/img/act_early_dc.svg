@@ -1,4 +1,4 @@
-<svg width="227px" height="148px" viewBox="0 0 227 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 227 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>hero</title>
     <g id="Prototyping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mobile-Index-page" transform="translate(-75.000000, -44.000000)">
@@ -11,7 +11,7 @@
                 <text id="Early" font-family="Merriweather-Bold, Merriweather" font-size="34" font-weight="bold" fill="#5A4099">
                     <tspan x="0.5" y="101">Early</tspan>
                 </text>
-                <text id="DC" font-family="Merriweather-Bold, Merriweather" font-size="34" font-weight="bold" fill="#EC0600">
+                <text id="DC" stroke="#000000" stroke-width="1.1" font-family="Merriweather-Bold, Merriweather" font-size="34" font-weight="bold" fill="#EC0600">
                     <tspan x="86.5" y="101">DC  </tspan>
                 </text>
             </g>
