@@ -126,11 +126,15 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+.hero
+  width: 500px
 
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+  .hero
+    width: 350px
 
 +mobile
   .blog-list-item header
@@ -139,3 +143,5 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .hero
+    width: 250px
